@@ -1,0 +1,14 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Nathan Philpot -- Design -- @nathanphilpot
+
+# THANKS
+
+    The Internet
+
+# TECHNOLOGY COLOPHON
+
+    HTML5, CSS3
