@@ -4,7 +4,7 @@
 		<ul>
 			<li><a>Pricing</a></li>
 			<li><a>Support</a></li>
-			<li><a class="btn">Sign In</a></li>
+			<li><a class="btn" href="app/">Sign In</a></li>
 		</ul>
 	</nav>
 </header>
