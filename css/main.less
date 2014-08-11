@@ -39,7 +39,6 @@ a {
 			a {
 				display: block;
 				padding: 0 16px;
-				font-size: 18px;
 				font-weight: 500;
 				&.btn {
 					background: @dkblue;
@@ -48,12 +47,28 @@ a {
 					text-transform: uppercase;
 					letter-spacing: 1px;
 					font-weight: 600;
-					font-size: 15px;
+					font-size: 16px;
 					padding: 0 10px;
 					margin: 0 6px;
 				}
 			}
 		}
+	}
+}
+
+.cta {
+	text-align: center;
+	padding: 64px 0;
+	.btn {
+		background: @yellow;
+		line-height: 1.2em;
+		padding: 18px 36px;
+		border-radius: 6px;
+		display: inline-block;
+		font-weight: 500;
+		color: darken(@yellow,55%);
+		text-shadow: 0 0 16px lighten(@yellow,11%);
+		.box-shadow(0 3px 0 fadeout(@black,75%));
 	}
 }
 
@@ -67,6 +82,7 @@ a {
 	text-align: center;
 	padding: 64px 0;
 	z-index: 1;
+	margin: 0 0 128px;
 	h1 {
 		font-size: 28px;
 		line-height: 1.2em;
@@ -77,23 +93,30 @@ a {
 		max-width: 550px;
 		display: inline-block;
 	}
-	.btn {
-		background: @yellow;
-		line-height: 1.2em;
-		padding: 18px 36px;
-		border-radius: 6px;
-		display: inline-block;
-		font-size: 19px;
-		font-weight: 500;
-		color: darken(@yellow,55%);
-		text-shadow: 0 0 16px lighten(@yellow,11%);
-		.box-shadow(0 3px 0 fadeout(@black,75%));
+	.cta {
+		padding: 0;
+	}
+}
+
+.home-features {
+	padding: 0;
+	.clearfix();
+	.feature {
+		.photo {
+			width: 144px;
+			height: 144px;
+			margin: 0 auto 64px;
+			background: darken(@white,3%);
+			border-radius: 50%;
+		}
 	}
 }
 
 .content {
 	position: relative;
 	padding: 16px;
-	height: 1000px;
 	background: @white;
+	.cta {
+		margin: 64px 0;
+	}
 }
