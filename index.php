@@ -28,77 +28,83 @@ $title = 'Caregiver Window';
 
 <div class="content">
 	<div class="container">
-		<div class="home-features row">
-			<div class="col-xs-12 col-sm-6 feature">
-				<div class="photo">
-					<img src="<?php echo $path;?>img/3.jpg" alt="Caregiver" />
+		<div class="home-features feature">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6">
+					<div class="photo">
+						<img src="<?php echo $path;?>img/3.jpg" alt="Caregiver" />
+					</div>
+					<h3>Easy &amp; Simple</h3>
+					<ul class="ul">
+						<li>No setup cost, and no per client charge</li>
+						<li>Web-based and accessible on all smart devices: iPad, iPhone, and Android devices</li>
+						<li>Online care assessments</li>
+						<li>Care provider scheduling with integrated time tracking</li>
+						<li>Communicate with staff via email and text</li>
+						<li><abbr>HR</abbr> solutions</li>
+						<li>Integrated billing and payroll</li>
+						<li>Access for families, caregivers, and referrers</li>
+					</ul>
 				</div>
-				<h3>Easy &amp; Simple</h3>
-				<ul class="ul">
-					<li>No setup cost, and no per client charge</li>
-					<li>Web-based and accessible on all smart devices: iPad, iPhone, and Android devices</li>
-					<li>Online care assessments</li>
-					<li>Care provider scheduling with integrated time tracking</li>
-					<li>Communicate with staff via email and text</li>
-					<li><abbr>HR</abbr> solutions</li>
-					<li>Integrated billing and payroll</li>
-					<li>Access for families, caregivers, and referrers</li>
-				</ul>
-			</div>
-			<div class="col-xs-12 col-sm-6 feature">
-				<div class="photo">
-					<img src="<?php echo $path;?>img/2.jpg" alt="Owner" />
-				</div>
-				<h3>Back Office</h3>
-				<ul class="ul">
-					<li>Export billing and payroll to QuickBooks or your payroll company</li>
-					<li>Print invoices</li>
-					<li>See schedules and care documentation for clients that you referred</li>
-					<li>View reports to see profitability, client accounting, caregiver needs</li>
-					<li>Caregivers are filtered by client care needs and distance</li>
-					<li>Real-time updates alerting you and caregivers if they are late</li>
-					<li><abbr>HIPAA</abbr> compliant</li>
-					<li>Real-time backups</li>
-				</ul>
-			</div>
-		</div>
-		<div class="cta">
-			<a class="btn" href="<?php echo $path;?>caregiver/">Try <span class="hidden-sm">Caregiver Window</span> Free for 30 Days</a>
-		</div>
-		<div class="home-users row">
-			<div class="col-xs-12 col-sm-4 feature">
-				<div class="photo">
-					<img src="<?php echo $path;?>img/4.jpg" alt="Client" class="" />
+				<div class="col-xs-12 col-sm-6">
+					<div class="photo">
+						<img src="<?php echo $path;?>img/2.jpg" alt="Owner" />
+					</div>
+					<h3>Back Office</h3>
+					<ul class="ul">
+						<li>Export billing and payroll to QuickBooks or your payroll company</li>
+						<li>Print invoices</li>
+						<li>See schedules and care documentation for clients that you referred</li>
+						<li>View reports to see profitability, client accounting, caregiver needs</li>
+						<li>Caregivers are filtered by client care needs and distance</li>
+						<li>Real-time updates alerting you and caregivers if they are late</li>
+						<li><abbr>HIPAA</abbr> compliant</li>
+						<li>Real-time backups</li>
+					</ul>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-8 feature">
-				<h3>Clients</h3>
-				<ul class="ul">
-					<li>Custom daily care plans available for your needs</li>
-					<li>Transparency at all levels of care from you and your caregiver</li>
-					<li>Real time updates and electronic time signatures</li>
-					<li>See invoices and updated accounting</li>
-					<li>See schedules and daily care documentation</li>
-				</ul>
-				<div class="cta">
-					<a class="btn" href="<?php echo $path;?>request/">Request Care</a>
-				</div>
+			<div class="cta">
+				<a class="btn" href="<?php echo $path;?>caregiver/">Try <span class="hidden-sm">Caregiver Window</span> Free for 30 Days</a>
 			</div>
 		</div>
-		<div class="home-users cgs-users row">
-			<div class="col-xs-12 col-sm-4 feature">
-				<div class="photo">
-					<img src="<?php echo $path;?>img/5.jpg" alt="Caregiver" class="" />
+		<div class="home-users feature">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4">
+					<div class="photo">
+						<img src="<?php echo $path;?>img/4.jpg" alt="Client" class="" />
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-8">
+					<h3>Clients</h3>
+					<ul class="ul">
+						<li>Custom daily care plans available for your needs</li>
+						<li>Transparency at all levels of care from you and your caregiver</li>
+						<li>Real time updates and electronic time signatures</li>
+						<li>See invoices and updated accounting</li>
+						<li>See schedules and daily care documentation</li>
+					</ul>
+					<div class="cta">
+						<a class="btn" href="<?php echo $path;?>request/">Request Care</a>
+					</div>
 				</div>
 			</div>
-			<div class="col-xs-12 col-sm-8 feature">
-				<h3>Caregivers</h3>
-				<ul class="ul">
-					<li>Online job application with your status tracking</li>
-					<li>See your schedule, shift requirements, client care needs and driving directions quickly and easily</li>
-				</ul>
-				<div class="cta">
-					<a class="btn" href="<?php echo $path;?>caregiver/">Apply Now</a>
+		</div>
+		<div class="home-users cgs-users feature">
+			<div class="row">
+				<div class="col-xs-12 col-sm-4">
+					<div class="photo">
+						<img src="<?php echo $path;?>img/5.jpg" alt="Caregiver" class="" />
+					</div>
+				</div>
+				<div class="col-xs-12 col-sm-8">
+					<h3>Caregivers</h3>
+					<ul class="ul">
+						<li>Online job application with your status tracking</li>
+						<li>See your schedule, shift requirements, client care needs and driving directions quickly and easily</li>
+					</ul>
+					<div class="cta">
+						<a class="btn" href="<?php echo $path;?>caregiver/">Apply Now</a>
+					</div>
 				</div>
 			</div>
 		</div>
