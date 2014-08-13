@@ -19,14 +19,10 @@ a {
 
 .header {
 	z-index: 2;
-	color: @white;
 	text-align: right;
 	height: 64px;
 	line-height: 64px;
 	padding: 0 16px;
-	position: absolute;
-	left: 0;
-	top: 0;
 	width: 100%;
 	h1 {
 		float: left;
@@ -41,17 +37,30 @@ a {
 			a {
 				display: block;
 				padding: 0 16px;
-				color: @white;
+				color: @brand;
 				&.btn {
-					background: @dkblue;
-					border-radius: 4px;
-					line-height: 32px;
-					text-transform: uppercase;
-					letter-spacing: 1px;
-					font-weight: 500;
-					font-size: 16px;
-					padding: 0 10px;
 					margin: 0 6px;
+					padding: 8px 16px;
+					font-weight: 500;
+					color: @white;
+				}
+			}
+		}
+	}
+	&.home-header {
+		color: @white;
+		position: absolute;
+		left: 0;
+		top: 0;
+		h1 {
+			a {
+				color: @white;
+			}
+		}
+		ul {
+			li {
+				a {
+					color: @white;
 				}
 			}
 		}
@@ -61,18 +70,9 @@ a {
 .cta {
 	text-align: center;
 	padding: 64px 0;
-	.btn {
-		background: @yellow;
-		line-height: 1.2em;
-		padding: 18px 36px;
-		border-radius: 6px;
-		display: inline-block;
-		font-weight: 500;
-		color: darken(@yellow,55%);
-		text-shadow: 0 0 16px lighten(@yellow,11%);
-		.box-shadow(0 3px 0 fadeout(@black,90%));
-	}
 }
+
+// home
 
 .home-hero {
 	background: url(../img/1.jpg) no-repeat center center; 
@@ -120,13 +120,6 @@ a {
 			text-align: left;
 			padding: 18px 0 0;
 			margin: 0;
-			.btn {
-				padding: 12px 24px;
-				background: @turqoise;
-				text-shadow: 0 0 36px fadeout(darken(@turqoise,50%),75%);
-				text-shadow: 2px 2px 0 fadeout(darken(@turqoise,50%),99%);
-				color: darken(@turqoise, 44%);
-			}
 		}
 	}
 }
@@ -147,6 +140,34 @@ a {
 
 .home-business {
 	padding: 128px 0;
+}
+
+// pricing
+
+
+.feature {
+	padding: 64px 0;
+}
+
+.pricing {
+	text-align: center;
+	overflow: hidden;
+	padding: 64px 0;
+	.term {
+		border-radius: 6px;
+		border: 3px dashed @invert;
+		padding: 32px 0;
+		.secondary, .primary {
+			line-height: 1.6em;
+		}
+		.primary {
+			font-size: 36px;
+			color: darken(@bcolor,22%);
+		}
+		.secondary {
+			font-size: 19px;
+		}
+	}
 }
 
 .content {

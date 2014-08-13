@@ -21,7 +21,7 @@ $title = 'Caregiver Window';
 	<div class="container">
 		<h1>Caregiver Window is the most user-friendly private-duty software available today.</h1>
 		<div class="cta">
-			<a class="btn">Try <span class="hidden-sm">Caregiver Window</span> Free for 30 Days</a>
+			<a class="btn" href="<?php echo $path;?>pricing/">Try <span class="hidden-sm">Caregiver Window</span> Free for 30 Days</a>
 		</div>
 	</div>
 </div>
@@ -63,7 +63,7 @@ $title = 'Caregiver Window';
 			</div>
 		</div>
 		<div class="cta">
-			<a class="btn">Try <span class="hidden-sm">Caregiver Window</span> Free for 30 Days</a>
+			<a class="btn" href="<?php echo $path;?>caregiver/">Try <span class="hidden-sm">Caregiver Window</span> Free for 30 Days</a>
 		</div>
 		<div class="home-users row">
 			<div class="col-xs-12 col-sm-4 feature">
@@ -81,7 +81,7 @@ $title = 'Caregiver Window';
 					<li>See schedules and daily care documentation</li>
 				</ul>
 				<div class="cta">
-					<a class="btn">Request Care</a>
+					<a class="btn" href="<?php echo $path;?>request/">Request Care</a>
 				</div>
 			</div>
 		</div>
@@ -98,7 +98,7 @@ $title = 'Caregiver Window';
 					<li>See your schedule, shift requirements, client care needs and driving directions quickly and easily</li>
 				</ul>
 				<div class="cta">
-					<a class="btn">Apply Now</a>
+					<a class="btn" href="<?php echo $path;?>caregiver/">Apply Now</a>
 				</div>
 			</div>
 		</div>
@@ -108,7 +108,7 @@ $title = 'Caregiver Window';
 			<p>You need to know how to lead, manage, and operate your business smarter than your competition. Caregiver Window offers you this competitive edge. Caregiver window is an ideal solution for your private duty company. Instead of making mistakes between the two, you will have a critical component of your business in place that will allow you to develop to a deeply rewarding business.</p>
 			<p>Your result with Caregiver Window will be more efficient operations and lower cost resulting in higher quality of care. In addition, it will allow for more time with your clients and referrals and an increased profit.</p>
 			<div class="cta">
-				<a class="btn">Try <span class="hidden-sm">Caregiver Window</span> Free for 30 Days</a>
+				<a class="btn" href="<?php echo $path;?>caregiver/">Try <span class="hidden-sm">Caregiver Window</span> Free for 30 Days</a>
 			</div>
 		</div>
 	</div>
