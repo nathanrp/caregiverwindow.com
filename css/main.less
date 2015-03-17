@@ -26,10 +26,31 @@ a {
 	width: 100%;
 	h1 {
 		float: left;
-		padding: 0 36px;
 		text-transform: uppercase;
 		letter-spacing: 1px;
 		font-weight: 600;
+		text-align: center;
+		line-height: 1em;
+		padding: 8px 0 0;
+		font-size: 24px;
+		a {
+			padding: 76px 36px 0;
+			background: url(img/logoo.svg) no-repeat center top;
+			background-size: 50px 50px;
+			display: block;
+			span {
+				display: none;
+				&:first-child {
+					font-weight: 100;
+					font-size: 20px;
+				}
+			}
+		}
+		&.home {
+			a {
+				background-image: url(img/logo.svg);
+			}
+		}
 	}
 	ul {
 		li {
@@ -75,7 +96,7 @@ a {
 // home
 
 .home-hero {
-	background: url(../img/1.jpg) no-repeat center center; 
+	background: url(../img/1.jpg) no-repeat center bottom; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -154,7 +175,7 @@ a {
 	padding: 64px 0;
 	.term {
 		border-radius: 6px;
-		border: 3px dashed @invert;
+		border: 3px dashed @red;
 		padding: 32px 0;
 		.secondary, .primary {
 			line-height: 1.6em;
@@ -194,5 +215,20 @@ a {
 	}
 	p {
 		font-size: 17px;
+	}
+}
+
+// for now
+
+.home-hero, 
+.home-features, 
+.home-business, 
+.header nav ul, 
+.footer {
+	.cta,
+	li:nth-child(1), 
+	li:nth-child(2), 
+	.links {
+		display: none;
 	}
 }
