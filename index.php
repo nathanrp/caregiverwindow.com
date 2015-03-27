@@ -21,7 +21,7 @@ $title = 'Caregiver Window';
 	<div class="container">
 		<h1>Caregiver Window is the most user-friendly private-duty software available today.</h1>
 		<div class="cta">
-			<a class="btn" href="<?php echo $path;?>pricing/">Try <span class="hidden-sm">Caregiver Window</span> Free for 30 Days</a>
+			<a class="btn" href="<?php echo $path;?>request/">Request Care</a> <a class="btn" href="<?php echo $path;?>caregiver/">Caregiver Application</a>
 		</div>
 	</div>
 </div>
@@ -62,9 +62,6 @@ $title = 'Caregiver Window';
 						<li>Real-time backups</li>
 					</ul>
 				</div>
-			</div>
-			<div class="cta">
-				<a class="btn" href="<?php echo $path;?>caregiver/">Try <span class="hidden-sm">Caregiver Window</span> Free for 30 Days</a>
 			</div>
 		</div>
 		<div class="home-users feature">
@@ -113,9 +110,6 @@ $title = 'Caregiver Window';
 			<p>Caregiver Window positions you to become a leader in this market by helping you focus on those things that are critical to your success. Finally, make your back office part of your front office. Caregiver Window is a web-based system for client integration and management as well as caregiver scheduling, tracking and messaging, resulting in a symbiotic relationship that is transparent. It has been designed and fostered from 10 years of home care experience and will prove essential to your success.</p>
 			<p>You need to know how to lead, manage, and operate your business smarter than your competition. Caregiver Window offers you this competitive edge. Caregiver window is an ideal solution for your private duty company. Instead of making mistakes between the two, you will have a critical component of your business in place that will allow you to develop to a deeply rewarding business.</p>
 			<p>Your result with Caregiver Window will be more efficient operations and lower cost resulting in higher quality of care. In addition, it will allow for more time with your clients and referrals and an increased profit.</p>
-			<div class="cta">
-				<a class="btn" href="<?php echo $path;?>caregiver/">Try <span class="hidden-sm">Caregiver Window</span> Free for 30 Days</a>
-			</div>
 		</div>
 	</div>
 </div>
